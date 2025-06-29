@@ -1,0 +1,80 @@
+
+h1 {
+	font-family: Serif;
+	font-size:30px;
+	margin: 10 30 10 30;
+	color: midnightblue;
+	text-align: center;
+	font-weight: bold;
+
+}
+h2 {
+	font-family: Serif;
+	font-size:25px;
+	margin: 20 30 0 0;
+	color: midnightblue;
+
+}
+
+p {
+	font-family: sans-serif;
+	font-size: 18px;
+	margin: 50px 450px 50px 10px;
+	color: blue;
+}
+p1 {
+	font-family: sans-serif;
+	font-size: 18px;
+	margin: 500 0 100 0;
+	color: blue;
+}
+body{
+		direction:ltr;
+		font-family: sans-serif;
+		font-size:14px;
+		margin: 0;
+		background-color:white;
+	}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+}
+.header {
+  padding: 30px;
+  text-align: center;
+  background: dodgerblue;
+}
+
+.footer {
+  color: midnightblue;
+  padding: 20px;
+  text-align: center;
+  background-color: dodgerblue;
+}
+	
+.footer a {
+	color: midnightblue
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column4 {
+  float: left;
+  width: 24%;
+  padding: 5px;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column2 {
+  float: left;
+  width: 40%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
